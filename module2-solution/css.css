@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.box{
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.realContent{
+    background-color: #DBDFEA;
+    position: relative;
+    border: solid 1px black;
+    padding: 10px;
+}
+.dishNames{
+    text-align: center;
+    font-weight: bold;
+}
+.right-corner{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+}
+.color1{
+    background-color: #B799FF;
+}
+.color2{
+    background-color: #ACBCFF;
+}
+.color3{
+    background-color: #AEE2FF;
+}
+.content{
+    margin-top: 70px;
+}
+@media (min-width: 992px) {
+    .col-lg-4{
+        width: 33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-2{
+        width: 50%;
+    }
+    .col-md-1{
+        width:100%;
+    }
+}
+@media (max-width:767px){
+    .col-sm-1{
+        width:100%;
+    }
+}
